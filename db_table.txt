@@ -1,0 +1,16 @@
++--------------+--------------+------+-----+---------+----------------+
+| Field        | Type         | Null | Key | Default | Extra          |
++--------------+--------------+------+-----+---------+----------------+
+| ip_name      | varchar(255) | YES  |     | NULL    |                |
+| ip_subnet    | int(11)      | YES  |     | NULL    |                |
+| sec_a        | int(11)      | YES  |     | NULL    |                |
+| sec_b        | int(11)      | YES  |     | NULL    |                |
+| sec_c        | int(11)      | YES  |     | NULL    |                |
+| sec_d        | int(11)      | YES  |     | NULL    |                |
+| subnet_num   | int(11)      | YES  |     | NULL    |                |
+| desc         | varchar(255) | YES  |     | NULL    |                |
+| ip_dec_begin | double(11,0) | NO   |     | 0       |                |
+| ip_dec_end   | double(11,0) | YES  |     | NULL    |                |
+| cate         | varchar(255) | YES  |     | NULL    |                |
+| id           | int(11)      | NO   | PRI | NULL    | auto_increment |
++--------------+--------------+------+-----+---------+----------------+
