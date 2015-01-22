@@ -31,19 +31,22 @@
             <div class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-4">
-                    <form class='form-horizontal' id='import_form' action='source/up_load.php' method='POST' enctype="multipart/form-data">
-                    	<div class="form-group">
-                    		<label for="file">文件上传：</label>
-                    		<input type="file" id='file' name='file' />                  		
-                    	</div>
-                    	<div class="form-group">
-                    		<input class='btn btn-primary' type="submit" value="提交文件" />
-                            <input type="button" id="clc-ret" class="btn btn-primary" value="清除结果" />
-                    	</div>
-                        <div class="form-group">
-                            <input type="button" id="lit" class="btn btn-primary" value='显示列表'>
-                        </div>
-                    </form>
+                    <div class="col-md-12">
+                        <form class='form-horizontal' id='import_form' action='source/up_load.php' method='POST' enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label for="file">文件上传：</label>
+                                <input type="file" id='file' name='file' />                          
+                            </div>
+                            <div class="form-group">
+                                <input class='btn btn-primary' type="submit" value="提交文件" />
+                                <input type="button" id="clc-ret" class="btn btn-primary" value="清除结果" />
+                            </div>
+                            <div class="form-group">
+                                <input type="button" id="lit" class="btn btn-primary" value='显示列表'>
+                                <!-- <input type="button" id="single-add" class="btn btn-primary" value="单条添加"> -->
+                            </div>
+                        </form>
+                    </div>
                 </div>
                 <div class="col-md-6 ">
                 	<p class="lead">模板：</p>
